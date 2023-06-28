@@ -1,0 +1,82 @@
+.icon {
+  width: 22px;
+  height: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.icon-sm {
+  width: 18px;
+  height: 18px;
+}
+.icon-home {
+  background-image: url(../icons/Home.svg);
+}
+.icon-explore {
+  background-image: url(../icons/Explore.svg);
+}
+.icon-notifications {
+  background-image: url(../icons/notifications.svg);
+}
+.icon-messages {
+  background-image: url(../icons/Messages.svg);
+}
+.icon-bookmarks {
+  background-image: url(../icons/bookmarks.svg);
+}
+.icon-lists {
+  background-image: url(../icons/lists.svg);
+}
+.icon-profile {
+  background-image: url(../icons/profile.svg);
+}
+.icon-more {
+  background-image: url(../icons/more.svg);
+}
+.icon-private {
+  background-image: url(../icons/private.svg);
+}
+.icon-timeline {
+  background-image: url(../icons/timeline-Prop.svg);
+}
+.icon-media {
+  background-image: url(../icons/media.svg);
+}
+.icon-gif {
+  background-image: url(../icons/gif.svg);
+}
+.icon-poll {
+  background-image: url(../icons/poll.svg);
+}
+.icon-emoji {
+  background-image: url(../icons/emoji.svg);
+}
+.icon-schedule {
+  background-image: url(../icons/schedule.svg);
+}
+.icon-verified {
+  background-image: url(../icons/verified.svg);
+}
+.icon-reply {
+  background-image: url(../icons/reply.svg);
+}
+.icon-retweet {
+  background-image: url(../icons/retweet.svg);
+}
+.icon-react {
+  background-image: url(../icons/react.svg);
+}
+.icon-share {
+  background-image: url(../icons/share.svg);
+}
+.icon-search {
+  background-image: url(../icons/search.svg);
+}
+.icon-setting {
+  background-image: url(../icons/settings.svg);
+}
+.icon-ellipse {
+  background-image: url(../icons/ellipse.svg);
+}
