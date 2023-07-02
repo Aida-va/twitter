@@ -1,6 +1,6 @@
 body,
 html {
-  height: 100%;
+  min-height: 100%;
 }
 
 .container {
@@ -38,9 +38,17 @@ html {
   padding: 0 32px 0 12px;
   margin-top: 16px;
 }
+
+.page-left-buttons .btn .plus {
+  display: none;
+}
+.mobile-navbar {
+  display: none;
+}
 .page-content {
   flex-grow: 1;
   margin-left: 275px;
+  border-right: 1px solid var(--darkbordercolor);
 }
 .page-right {
   width: 360px;
@@ -50,7 +58,6 @@ html {
   padding-top: 6px;
   padding-right: 10px;
   height: 100%;
-  border-left: 1px solid var(--darkbordercolor);
 }
 
 .navbar-link {
@@ -66,6 +73,7 @@ html {
   height: 40px;
   border-radius: 40px;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .html-editor {

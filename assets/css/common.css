@@ -8,6 +8,7 @@
 .flex-column {
   flex-direction: column;
 }
+
 .flex-wrap {
   flex-wrap: wrap;
 }
@@ -228,21 +229,19 @@
 .font-bold {
   font-weight: 900;
 }
-
+.text-xs {
+  font-size: 10px;
+}
 .text-base {
   font-size: 12px;
 }
-
-.text-lg {
-  font-size: 18px;
+.text-sm {
+  font-size: 14px;
 }
 
 .text-base {
   font-size: 16px;
 }
-.text-sm {
-  font-size: 12px;
-}
-.text-xs {
-  font-size: 10px;
+.text-lg {
+  font-size: 18px;
 }

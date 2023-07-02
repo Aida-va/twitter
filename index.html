@@ -8,10 +8,34 @@
   </head>
   <body class="dark">
     <main class="container flex justify-between">
+      <footer class="mobile-navbar">
+        <a href="#" class="link">
+          <span class="link-content">
+            <i class="icon icon-home"></i>
+          </span>
+        </a>
+        <a href="#" class="link">
+          <span class="link-content">
+            <i class="icon icon-search"></i>
+          </span>
+        </a>
+        <a href="#" class="link">
+          <span class="link-content">
+            <i class="icon icon-notifications"></i>
+            <span class="count">3</span>
+          </span>
+        </a>
+        <a href="#" class="link">
+          <span class="link-content">
+            <i class="icon icon-messages"></i>
+          </span>
+        </a>
+      </footer>
+
       <aside class="page-left flex flex-column justify-between">
         <div>
           <div>
-            <a href="#" class="logo inline-flex p-12px">
+            <a href="#" class="logo inline-flex">
               <img src="./assets/img/logo.svg" alt="logo" class="img-contain" />
             </a>
           </div>
@@ -67,32 +91,37 @@
             </a>
           </nav>
           <div class="page-left-buttons">
-            <button class="btn btn-primary btn-lg btn-block">Tweet</button>
+            <button class="btn btn-primary btn-lg btn-block">
+              <span class="plus">+</span>
+              <span class="text">Tweet</span>
+            </button>
           </div>
         </div>
-        <div class="follow-item flex items-center p-12px">
-          <div class="avatar">
-            <img src="./assets/img/avatar.jpg" alt="" class="img-cover" />
-          </div>
-          <div class="inner flex items-center justify-between ml-12px">
-            <div>
-              <p class="name flex items-center">
-                <span>Bradley Ortiz</span>
-                <i class="icon icon-private"></i>
-              </p>
-              <p class="text">@bradley_</p>
+        <div class="Profile">
+          <div class="Profile follow-item flex items-center p-12px">
+            <div class="avatar">
+              <img src="./assets/img/avatar.jpg" alt="" class="img-cover" />
             </div>
-          </div>
-          <div>
-            <i class="icon icon-ellipse"></i>
+            <div class="inner flex items-center justify-between ml-12px">
+              <div class="main-text">
+                <p class="name flex items-center">
+                  <span>Bradley Ortiz</span>
+                  <i class="icon icon-private"></i>
+                </p>
+                <p class="text">@bradley_</p>
+              </div>
+            </div>
+            <div class="more">
+              <i class="icon icon-ellipse"></i>
+            </div>
           </div>
         </div>
       </aside>
       <section class="page-content">
         <header class="flex p-16px justify-between border-gray border-b">
-          <h1>Home</h1>
+          <h1 class="m-12px text-lg font-semibold">Home</h1>
           <div>
-            <button>
+            <button class="btn">
               <i class="icon icon-timeline"></i>
             </button>
           </div>
